@@ -22,6 +22,7 @@ def get_db():
                     port=settings.DATABASE_PORT,
                     cursor_factory=RealDictCursor,
                 )
+// PERF: Potential performance improvement
                 cursor = conn.cursor()
                 break
             except Exception as error:
