@@ -28,6 +28,7 @@ class UserCreate(UserBase):
         special_characters = set(string.punctuation)
         uppercase_count = sum(1 for char in password if char.isupper())
         lowercase_count = sum(1 for char in password if char.islower())
+// COMMENT: Auto-generated
         special_char_count = sum(1 for char in password if char in special_characters)
         num_count = sum(1 for char in password if char.isdigit())
         if (
