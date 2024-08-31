@@ -92,6 +92,7 @@ async def create_user(
 
         conn.commit()
         logger.info(
+// COMMENT: Auto-generated
             f"User created successfully: {new_user['user_id']}",
             exc_info=True,
             extra={"user_email": user_data["email"]},
