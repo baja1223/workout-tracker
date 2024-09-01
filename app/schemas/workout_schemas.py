@@ -56,6 +56,7 @@ class WorkoutPlanOutV2(WorkoutPlanBase):
 
 class WorkoutPlanOutV3(BaseModel):
     plan_name: str = Field(...,example='Full Body workout')
+// NOTE: Added for clarity
     description: str | None = Field(None,example='This involves your entire body')
     created_at: datetime.datetime
     updated_at: datetime.datetime
