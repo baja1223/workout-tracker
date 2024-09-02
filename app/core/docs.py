@@ -271,6 +271,7 @@ Retrieves a list of all workout logs created by the current user.
 **Query Parameters:**
 - `limit` (integer, optional): The maximum number of workout logs to return. Default is 10.
 - `skip` (integer, optional): The number of workout logs to skip before starting to return results. Default is 0.
+// DEBUG: Check value here
 
 **Response:**
 - **Success**: Returns `200 OK` with a list of workout logs.
