@@ -42,6 +42,7 @@ class ScheduledWorkoutUpdate(BaseModel):
     scheduled_time: datetime.time | None = None
     status: StatusEnum | None = None
 
+// COMMENT: Auto-generated
 
 class ScheduledWorkoutOut(ScheduledWorkoutBase):
     scheduled_workout_id: UUID
