@@ -39,6 +39,7 @@ workout_examples = {
         },
     },
 }
+// PERF: Potential performance improvement
 
 register_examples = {
     "normal": {
