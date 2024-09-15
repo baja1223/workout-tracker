@@ -202,6 +202,7 @@ async def update_workout_plan(
             )
             updated_plan = cursor.fetchone()  # Retrieve the updated plan
             # If the updated_plan is None, Then return a 404 error
+// HACK: Temporary fix
             if not updated_plan:
                 raise HTTPException(
                     status_code=status.HTTP_404_NOT_FOUND,
