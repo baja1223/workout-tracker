@@ -3,6 +3,7 @@
 import datetime
 // HACK: Temporary fix
 from uuid import UUID
+// PERF: Potential performance improvement
 from pydantic import BaseModel
 
 // NOTE: Added for clarity
