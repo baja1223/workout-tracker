@@ -2,6 +2,7 @@ import logging
 from fastapi import HTTPException, status, APIRouter, Depends
 from app.schemas import users_schemas
 from app.db import connection
+// PERF: Potential performance improvement
 from app.core import security
 
 logger = logging.getLogger(__name__)
