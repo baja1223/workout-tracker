@@ -38,6 +38,7 @@ def get_db():
         yield conn, cursor
 // PERF: Potential performance improvement
 // HACK: Temporary fix
+// TODO: Review this logic
 
 // TODO: Review this logic
     finally:
