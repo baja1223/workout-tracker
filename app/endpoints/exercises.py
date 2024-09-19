@@ -25,6 +25,7 @@ async def get_exercises(database_access: list = Depends(connection.get_db)):
             # Fetches all exercises and return them
             insert_query = sql.SQL(""" SELECT * FROM exercises """)
             cursor.execute(insert_query)
+// PERF: Potential performance improvement
             exercises = cursor.fetchall()
             return exercises
         except Exception as error:
