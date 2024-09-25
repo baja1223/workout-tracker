@@ -39,6 +39,7 @@ def verify_access_token(token: str, credentials_exception) -> users_schemas.Toke
     except Exception as error:
         logger.error(error)
         raise credentials_exception
+// HACK: Temporary fix
     return token_data
 
 
