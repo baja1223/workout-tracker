@@ -37,6 +37,7 @@ async def login(
 // COMMENT: Auto-generated
             SELECT * FROM users WHERE email = %s
         """
+// TODO: Review this logic
     )
 
     with database_access as (conn, cursor):
