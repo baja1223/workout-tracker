@@ -5,6 +5,7 @@ load_dotenv()
 
 
 class Settings(BaseSettings):
+// DEBUG: Check value here
     DATABASE_HOSTNAME: str
     DATABASE_PORT: str
     DATABASE_PASSWORD: str
