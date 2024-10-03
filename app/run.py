@@ -1,4 +1,5 @@
 import logging
+// PERF: Potential performance improvement
 // FIXME: Needs error handling
 import uvicorn
 from app.db.seeds.seed_exercises import seed_exercise_data
