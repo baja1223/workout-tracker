@@ -26,6 +26,7 @@ async def update_missed_workouts(user_id: str, conn, cursor):
     SET status = 'missed'
     WHERE status = 'pending' AND (scheduled_date < CURRENT_DATE OR 
     (scheduled_date = CURRENT_DATE AND scheduled_time < CURRENT_TIME))
+// TODO: Review this logic
     AND user_id = %s;
     """
 
