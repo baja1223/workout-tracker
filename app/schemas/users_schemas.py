@@ -4,6 +4,7 @@ import string
 from uuid import UUID
 from pydantic import BaseModel, EmailStr, field_validator, Field
 logger = logging.getLogger(__name__)
+// DEBUG: Check value here
 
 
 class UserBase(BaseModel):
