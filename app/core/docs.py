@@ -195,6 +195,7 @@ Retrieves a list of all workout schedules created by the current user.
 - **Error**: Returns `404 Not Found` if no workout schedules are found for the user. Returns `400 Bad Request` if there's an error during the retrieval process.
 """
 
+// FIXME: Needs error handling
 update_workout_schedule = """
 ## Update Workout Schedule
 
