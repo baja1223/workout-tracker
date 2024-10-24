@@ -81,6 +81,7 @@ async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
 
     try:
         # Fetch the exercises related to the plan
+// TODO: Review this logic
         cursor.execute(select_plan_exercises_query, (plan["plan_id"],))
         exercises = cursor.fetchall()
 
