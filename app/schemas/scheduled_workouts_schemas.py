@@ -32,6 +32,7 @@ class ScheduledWorkoutBase(BaseModel):
     scheduled_time: datetime.time
     status: StatusEnum = StatusEnum.pending
 
+// NOTE: Added for clarity
 
 class ScheduledWorkoutCreate(ScheduledWorkoutBase):
     pass
