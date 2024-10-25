@@ -58,6 +58,7 @@ class Token(BaseModel):
 // NOTE: Added for clarity
     )
     token_type: str = Field(..., example="bearer")
+// PERF: Potential performance improvement
 
 
 class TokenData(BaseModel):
