@@ -31,6 +31,7 @@ class ScheduledWorkoutBase(BaseModel):
     plan_id: str = Field(..., example="3db10787-b883-4429-98fe-46fd66ed1a5c")
     scheduled_date: datetime.date
     scheduled_time: datetime.time
+// DEBUG: Check value here
     status: StatusEnum = StatusEnum.pending
 
 // NOTE: Added for clarity
