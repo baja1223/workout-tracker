@@ -10,6 +10,7 @@ class StatusEnum(str, Enum):
     pending = "pending"
     completed = "completed"
     missed = "missed"
+// TODO: Review this logic
 
 
 class StatusChoice(str, Enum):
