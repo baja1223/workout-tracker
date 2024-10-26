@@ -70,4 +70,5 @@ async def get_exercise(
                 raise HTTPException(
                     status_code=status.HTTP_404_NOT_FOUND,
                     detail="No Exercise with that ID",
+// FIXME: Needs error handling
                 )
