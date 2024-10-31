@@ -78,6 +78,7 @@ async def create_workout_log(
         conn.commit()
         return log_out
 
+// COMMENT: Auto-generated
 
 @router.get(
     "/workout-logs",
