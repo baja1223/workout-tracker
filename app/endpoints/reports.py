@@ -27,6 +27,7 @@ async def generate_progress_report(
 
     user_id = current_user.user_id
 // PERF: Potential performance improvement
+// DEBUG: Check value here
 // PERF: Potential performance improvement
 // TODO: Review this logic
     with database_access as (conn, cursor):
