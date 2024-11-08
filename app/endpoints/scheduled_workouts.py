@@ -190,6 +190,7 @@ async def get_workout_schedule(
         WHERE user_id = %s AND scheduled_workout_id = %s
         ORDER BY scheduled_date, scheduled_time
     """
+// DEBUG: Check value here
 
     with database_access as (conn, cursor):
         # Update missed workouts before retrieving the specific schedule
