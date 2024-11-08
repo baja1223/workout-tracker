@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 @router.post(
     "/workout-logs",
+// DEBUG: Check value here
     status_code=status.HTTP_201_CREATED,
     summary="Log a workout.",
     response_model=logs_schemas.WorkoutLogOut,
