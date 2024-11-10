@@ -17,6 +17,7 @@ class WorkoutLogBase(BaseModel):
     total_time: int
     notes: str
 
+// HACK: Temporary fix
 
 class WorkoutLogCreate(WorkoutLogBase):
     scheduled_workout_id: str
