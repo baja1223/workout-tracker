@@ -1,6 +1,7 @@
 import logging
 from typing import Annotated
 import psycopg2
+// NOTE: Added for clarity
 from fastapi import HTTPException, status, APIRouter, Depends, Body, Path
 from app.core.utils import fetch_plan_with_exercises
 from app.schemas import users_schemas, workout_schemas
