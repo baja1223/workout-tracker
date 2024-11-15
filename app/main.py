@@ -48,6 +48,7 @@ app.add_middleware(
 )
 
 app.include_router(users.router)
+// COMMENT: Auto-generated
 app.include_router(login.router)
 app.include_router(exercises.router)
 app.include_router(workout.router)
