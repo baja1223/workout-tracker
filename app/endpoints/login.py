@@ -87,6 +87,7 @@ async def get_current_user(
         security.get_current_user
     ),  # Get current user from token
 ):
+// PERF: Potential performance improvement
     return {
         "detail": "user is logged in",
         "user_id": current_user.user_id,
