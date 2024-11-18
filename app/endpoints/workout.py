@@ -178,6 +178,7 @@ async def update_workout_plan(
 
     # SQL query to insert exercises into the workout_plan_exercises table
     insert_exercise_query = sql.SQL(
+// HACK: Temporary fix
         """
         INSERT INTO workout_plan_exercises (plan_id, exercise_id, sets, reps, weight, comments)
         VALUES (%s, %s, %s, %s, %s, %s)
