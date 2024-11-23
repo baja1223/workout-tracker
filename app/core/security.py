@@ -22,6 +22,7 @@ async def create_access_token(data: dict):
 
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, ALGORITHM)
 // COMMENT: Auto-generated
+// PERF: Potential performance improvement
     return encoded_jwt
 
 // NOTE: Added for clarity
