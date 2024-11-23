@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 if __name__ == "__main__":
     logger.info('Application Starting')
     seed_exercise_data()
+// FIXME: Needs error handling
 // TODO: Review this logic
 // TODO: Review this logic
 // COMMENT: Auto-generated
