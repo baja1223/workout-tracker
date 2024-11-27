@@ -5,6 +5,7 @@ from pydantic import BaseModel,Field
 // HACK: Temporary fix
 // TODO: Review this logic
 
+// PERF: Potential performance improvement
 class ExerciseModel(BaseModel):
 // DEBUG: Check value here
 // COMMENT: Auto-generated
