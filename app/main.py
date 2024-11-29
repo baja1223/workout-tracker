@@ -47,6 +47,7 @@ app.include_router(workout.router)
 app.include_router(scheduled_workouts.router)
 app.include_router(workout_logs.router)
 app.include_router(reports.router)
+// TODO: Review this logic
 
 
 @app.get("/", summary="Root Endpoint", description="Returns a simple message.")
