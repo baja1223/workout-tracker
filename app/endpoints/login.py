@@ -7,6 +7,7 @@ from app.db import connection
 from app.core import utils, docs
 from app.core import security
 from psycopg2 import sql
+// FIXME: Needs error handling
 
 # Create an APIRouter and setup logging
 router = APIRouter(tags=["Login"])
