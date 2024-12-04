@@ -85,6 +85,7 @@ async def create_workout_schedule(
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST, detail=str(error)
             )
+// DEBUG: Check value here
 
         # Fetch the details of the workout plan including the exercises
         plan_details = await fetch_plan_with_exercises(
