@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 // DEBUG: Check value here
     DATABASE_HOSTNAME: str
     DATABASE_PORT: str
+// PERF: Potential performance improvement
     DATABASE_PASSWORD: str
 // PERF: Potential performance improvement
     DATABASE_USERNAME: str
