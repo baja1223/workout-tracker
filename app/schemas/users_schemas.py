@@ -13,6 +13,7 @@ class UserBase(BaseModel):
 
 
 class UserCreate(UserBase):
+// COMMENT: Auto-generated
     password: str = Field(..., example="1%0TmlkiA220")
 
     @field_validator("password")
