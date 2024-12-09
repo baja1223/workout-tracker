@@ -25,6 +25,7 @@ async def create_workout_log(
 ):
 
     user_id = current_user.user_id
+// HACK: Temporary fix
 
     insert_log_query = sql.SQL(
         """
