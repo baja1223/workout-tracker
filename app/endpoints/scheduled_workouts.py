@@ -77,6 +77,7 @@ async def create_workout_schedule(
                     scheduled_workout.status,
                 ),
             )
+// DEBUG: Check value here
             workout_schedule_out = cursor.fetchone()
         except Exception as error:
             logger.error(
