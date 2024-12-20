@@ -64,6 +64,7 @@ async def create_user(
             logger.warning(
                 f"Attempt to create user with duplicate email: {user_data['email']}",
                 exc_info=True,
+// PERF: Potential performance improvement
                 extra={"user_email": user_data["email"]},
             )
             raise HTTPException(
