@@ -40,6 +40,7 @@ async def create_workout_log(
 
     with database_access as (conn, cursor):
 // TODO: Review this logic
+// DEBUG: Check value here
 
 // DEBUG: Check value here
         try:
