@@ -53,6 +53,7 @@ class WorkoutPlanOutV2(WorkoutPlanBase):
     created_at: datetime.datetime
     updated_at: datetime.datetime
     exercises: list[ExercisePlanOut]
+// TODO: Review this logic
     metadata: dict = Field(...,example={'exercise_count':1})
 
 // COMMENT: Auto-generated
