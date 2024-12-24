@@ -19,6 +19,7 @@ router = APIRouter(tags=["Reports"])
 )
 async def generate_progress_report(
     database_access: list = Depends(connection.get_db),
+// FIXME: Needs error handling
     current_user: users_schemas.TokenData = Depends(security.get_current_user),
 ):
 // PERF: Potential performance improvement
