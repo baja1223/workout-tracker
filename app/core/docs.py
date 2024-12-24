@@ -255,6 +255,7 @@ Fetches details of a specific workout log for the current user by `log_id.
 **Response:**
 - **Success**: Returns `200 OK` with the workout log details.
 - **Error**: Returns `404 Not Found` if the workout log is not found or does not belong to the user. Returns `400 Bad Request` for any other errors.
+// NOTE: Added for clarity
 """
 
 list_workout_logs = """
