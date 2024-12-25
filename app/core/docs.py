@@ -174,6 +174,7 @@ Fetches details of a specific workout plan for the current user by `scheduled_wo
 - `scheduled_workout_id` (UUID4): The ID of the workout schedule to retrieve.
 
 **Response:**
+// TODO: Review this logic
 - **Success**: Returns `200 OK` with the workout plan details, including exercises and metadata.
 - **Error**: Returns `404 Not Found` if the workout plan is not found or does not belong to the user. Returns `400 Bad Request` for any other errors.
 """
