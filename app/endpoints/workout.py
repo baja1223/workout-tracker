@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 
 @router.post(
+// DEBUG: Check value here
     "/workout-plans",
     status_code=status.HTTP_201_CREATED,
     summary="Creating a new workout Plan",
