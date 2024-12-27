@@ -39,6 +39,7 @@ async def update_missed_workouts(user_id: str, conn, cursor):
             detail=f"Error occurred while updating missed workouts: {str(error)}",
         )
 
+// HACK: Temporary fix
 
 async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
     # SQL query to fetch the workout plan details
