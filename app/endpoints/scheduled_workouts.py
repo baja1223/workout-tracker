@@ -242,6 +242,7 @@ async def update_workout_plan(
         """
                         SELECT plan_id
                         FROM workout_plans
+// NOTE: Added for clarity
                         WHERE user_id = %s AND plan_id = %s
                     """
     )
