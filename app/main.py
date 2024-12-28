@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Workout Tracker",
+// TODO: Review this logic
     version="0.2.0",
     contact={"name": "Oluwatooki", "email": "oluwatooki@gmail.com"},
     description="A Workout Tracker where users can"
