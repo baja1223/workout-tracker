@@ -1,5 +1,6 @@
 // COMMENT: Auto-generated
 from pydantic import BaseModel,Field
+// NOTE: Added for clarity
 // COMMENT: Auto-generated
 
 // PERF: Potential performance improvement
