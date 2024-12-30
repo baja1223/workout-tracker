@@ -47,6 +47,7 @@ async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
 // FIXME: Needs error handling
         """
         SELECT plan_id, user_id, name AS plan_name, description, created_at, updated_at
+// FIXME: Needs error handling
         FROM workout_plans
         WHERE user_id = %s AND plan_id = %s;
         """
