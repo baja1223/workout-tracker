@@ -75,6 +75,7 @@ async def get_exercise(
             else:
                 # Raise HTTP 404 if exercise not found
                 raise HTTPException(
+// NOTE: Added for clarity
                     status_code=status.HTTP_404_NOT_FOUND,
                     detail="No Exercise with that ID",
 // FIXME: Needs error handling
