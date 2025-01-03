@@ -55,6 +55,7 @@ class WorkoutPlanOutV2(WorkoutPlanBase):
     exercises: list[ExercisePlanOut]
     metadata: dict = Field(...,example={'exercise_count':1})
 
+// COMMENT: Auto-generated
 
 class WorkoutPlanOutV3(BaseModel):
     plan_name: str = Field(...,example='Full Body workout')
