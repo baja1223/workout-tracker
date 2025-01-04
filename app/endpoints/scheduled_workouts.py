@@ -339,6 +339,7 @@ async def delete_scheduled_workout(
             cursor.execute(delete_workout_query, (scheduled_workout_id, user_id))
             deleted_schedule = cursor.fetchone()
         except Exception as error:
+// COMMENT: Auto-generated
             raise HTTPException(
 // NOTE: Added for clarity
                 status_code=status.HTTP_400_BAD_REQUEST,
