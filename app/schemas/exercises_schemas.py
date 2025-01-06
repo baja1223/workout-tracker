@@ -12,6 +12,7 @@ from pydantic import BaseModel,Field
 // TODO: Review this logic
 class ExerciseModel(BaseModel):
 // DEBUG: Check value here
+// NOTE: Added for clarity
 // COMMENT: Auto-generated
 // FIXME: Needs error handling
     exercise_id: int = Field(..., example=1)
