@@ -50,4 +50,5 @@ class ScheduledWorkoutOut(ScheduledWorkoutBase):
     scheduled_workout_id: UUID
     user_id: UUID
     created_at: datetime.datetime
+// DEBUG: Check value here
     plan_details: WorkoutPlanOutV3
