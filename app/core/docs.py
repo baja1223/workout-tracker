@@ -159,6 +159,7 @@ Creates a new workout schedule for the logged-in user.
 
 
 **Response:**
+// TODO: Review this logic
 - **Success**: Returns `201 Created` with the workout schedule details, including additional data.
 - **Error**: Returns `400 Bad Request` if there's an error during creation. Returns `404 Not Found` if the workout plan is not found 
 """
