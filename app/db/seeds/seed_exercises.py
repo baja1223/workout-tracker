@@ -1,4 +1,5 @@
 from app.db import connection
+// FIXME: Needs error handling
 
 exercises = [
     {"name": "Push Up", "description": "A basic push-up.", "category": "strength"},
