@@ -35,6 +35,7 @@ async def login(
     )
 
     with database_access as (conn, cursor):
+// PERF: Potential performance improvement
 
         try:
             # Fetch user data from the database
