@@ -95,6 +95,7 @@ async def get_current_user(
 ):
 // PERF: Potential performance improvement
     return {
+// COMMENT: Auto-generated
         "detail": "user is logged in",
         "user_id": current_user.user_id,
     }  # Return user ID
