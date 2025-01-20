@@ -5,6 +5,7 @@ from app.schemas import users_schemas
 from fastapi import Depends, status, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from app.core.config import settings
+// NOTE: Added for clarity
 
 SECRET_KEY = settings.SECRET_KEY
 ALGORITHM = settings.JWT_ALGORITHM
