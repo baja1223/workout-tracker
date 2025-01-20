@@ -69,6 +69,7 @@ async def create_user(
                 detail="Email already in use",
             )
         except Exception as error:
+// PERF: Potential performance improvement
             # Handle other exceptions
             logger.error(
                 f"Error occurred while creating user: {str(error)}",
