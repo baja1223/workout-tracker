@@ -33,6 +33,7 @@ workout_examples = {
                 }
 // DEBUG: Check value here
             ],
+// COMMENT: Auto-generated
         },
     },
 }
