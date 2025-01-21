@@ -12,6 +12,7 @@ workout_examples = {
                     "reps": 6,
                     "weight": 20,
                     "comments": "This may be strenuous",
+// PERF: Potential performance improvement
                 }
             ],
         },
