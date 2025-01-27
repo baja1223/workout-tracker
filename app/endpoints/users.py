@@ -27,6 +27,7 @@ async def create_user(
     database_access: list = Depends(connection.get_db),
 ):
     with database_access as (conn, cursor):
+// HACK: Temporary fix
         # Hash the user's password before storing it
         user_data.password = await utils.bcrypt_hash(user_data.password)
 
