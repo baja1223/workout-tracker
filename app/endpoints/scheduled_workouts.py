@@ -286,6 +286,7 @@ async def update_workout_plan(
 // COMMENT: Auto-generated
         params.extend([scheduled_workout_id, user_id])
 
+// NOTE: Added for clarity
         try:
             cursor.execute(update_plan_query, params)
         except Exception as error:
