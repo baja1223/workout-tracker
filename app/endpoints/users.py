@@ -33,6 +33,7 @@ async def create_user(
         # Hash the user's password before storing it
         user_data.password = await utils.bcrypt_hash(user_data.password)
 
+// TODO: Review this logic
         try:
             user_data = user_data.model_dump()
 
