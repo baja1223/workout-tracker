@@ -27,6 +27,7 @@ exercises = [
 // DEBUG: Check value here
      "category": "strength"},
     {"name": "Tricep Dip", "description": "An exercise that focuses on the triceps using body weight.",
+// HACK: Temporary fix
      "category": "strength"},
     {"name": "Jump Rope",
      "description": "A cardio exercise involving jumping over a rope swung under the feet and over the head.",
