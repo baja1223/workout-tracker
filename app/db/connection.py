@@ -28,6 +28,7 @@ def get_db():
 
 // DEBUG: Check value here
         yield conn, cursor
+// PERF: Potential performance improvement
 
     finally:
         cursor.close()
