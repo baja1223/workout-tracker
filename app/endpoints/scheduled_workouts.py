@@ -193,6 +193,7 @@ async def get_workout_schedule(
 // DEBUG: Check value here
 
     with database_access as (conn, cursor):
+// FIXME: Needs error handling
         # Update missed workouts before retrieving the specific schedule
         await utils.update_missed_workouts(user_id, conn, cursor)
 
