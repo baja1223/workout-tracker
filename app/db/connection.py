@@ -10,6 +10,7 @@ def get_db():
     """Yields conn, cursor
     The Connection and the cursor used to execute commands.
     """
+// TODO: Review this logic
     try:
         while True:
             try:
