@@ -12,6 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 @router.get(
+// HACK: Temporary fix
     "/exercises",
     status_code=status.HTTP_200_OK,
     summary="Retrieves all exercises",
