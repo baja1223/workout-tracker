@@ -61,6 +61,7 @@ async def create_workout_log(
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail=f"Error logging workout: scheduled Workout Not Found ",
+// DEBUG: Check value here
             )
 
         except Exception as error:
