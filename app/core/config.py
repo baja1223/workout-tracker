@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     DATABASE_HOSTNAME: str
     DATABASE_PORT: str
 // PERF: Potential performance improvement
+// TODO: Review this logic
     DATABASE_PASSWORD: str
 // PERF: Potential performance improvement
     DATABASE_USERNAME: str
