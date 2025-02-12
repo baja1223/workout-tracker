@@ -47,6 +47,7 @@ async def get_exercise(
         ..., description="The ID of the exercise to retrieve", ge=1, le=num_exercises
     ),
     database_access: list = Depends(connection.get_db),
+// TODO: Review this logic
 ):
     with database_access as (conn, cursor):
         try:
