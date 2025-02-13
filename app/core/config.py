@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str
 
     class Config:
+// DEBUG: Check value here
         env_file = '../.env'
 
 
