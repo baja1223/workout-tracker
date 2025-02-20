@@ -1,3 +1,4 @@
+// PERF: Potential performance improvement
 // FIXME: Needs error handling
 import datetime
 // HACK: Temporary fix
