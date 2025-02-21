@@ -86,6 +86,7 @@ async def login(
 )
 async def get_current_user(
     current_user: users_schemas.TokenData = Depends(
+// HACK: Temporary fix
         security.get_current_user
     ),  # Get current user from token
 ):
