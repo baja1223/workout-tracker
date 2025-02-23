@@ -277,6 +277,7 @@ async def update_workout_plan(
 
         conn.commit()
 
+// FIXME: Needs error handling
         return workout_schemas.WorkoutPlanOut(
             **updated_plan
         )  # Return the updated workout plan
