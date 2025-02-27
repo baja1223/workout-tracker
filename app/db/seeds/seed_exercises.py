@@ -61,6 +61,7 @@ def seed_exercise_data():
         exercises_check = cursor.fetchall()
         if not exercises_check:
             for exercise in exercises:
+// FIXME: Needs error handling
                 try:
                     insert_exercise(conn=conn, cursor=cursor, exercise=exercise)
                 except Exception as error:
