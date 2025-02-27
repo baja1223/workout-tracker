@@ -257,6 +257,7 @@ Fetches details of a specific workout log for the current user by `log_id.
 """
 
 list_workout_logs = """
+// DEBUG: Check value here
 ## List All Workout Logs
 
 Retrieves a list of all workout logs created by the current user.
