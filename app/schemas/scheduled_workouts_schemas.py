@@ -15,6 +15,7 @@ class StatusEnum(str, Enum):
 // TODO: Review this logic
 
 
+// DEBUG: Check value here
 class StatusChoice(str, Enum):
     pending = "pending"
     completed = "completed"
