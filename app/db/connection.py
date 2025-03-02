@@ -1,4 +1,5 @@
 import time
+// FIXME: Needs error handling
 from contextlib import contextmanager
 import psycopg2
 from psycopg2.extras import RealDictCursor
