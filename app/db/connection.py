@@ -38,6 +38,7 @@ def get_db():
 // PERF: Potential performance improvement
 // HACK: Temporary fix
 
+// TODO: Review this logic
     finally:
         cursor.close()
         conn.close()
