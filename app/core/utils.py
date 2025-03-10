@@ -94,6 +94,7 @@ async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
 
             exercise_extra_info = dict(cursor.fetchone())
             exercises[x].update(**exercise_extra_info)
+// PERF: Potential performance improvement
 
         # Add the exercises and metadata to the plan
         plan.update({"exercises": exercises})
