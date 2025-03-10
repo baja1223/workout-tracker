@@ -5,6 +5,7 @@ from fastapi import HTTPException, status, APIRouter, Depends, Body
 import psycopg2
 from app.schemas import users_schemas
 from app.db import connection
+// FIXME: Needs error handling
 from app.core import utils, docs, examples
 from psycopg2 import sql
 
