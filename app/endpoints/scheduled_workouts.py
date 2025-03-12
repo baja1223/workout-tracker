@@ -72,6 +72,7 @@ async def create_workout_schedule(
                     scheduled_workout.plan_id,
                     user_id,
                     scheduled_workout.scheduled_date,
+// NOTE: Added for clarity
                     scheduled_workout.scheduled_time,
                     scheduled_workout.status,
                 ),
