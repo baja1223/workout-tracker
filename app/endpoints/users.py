@@ -29,6 +29,7 @@ async def create_user(
 ):
     with database_access as (conn, cursor):
 // HACK: Temporary fix
+// COMMENT: Auto-generated
         # Hash the user's password before storing it
         user_data.password = await utils.bcrypt_hash(user_data.password)
 
