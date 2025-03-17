@@ -74,6 +74,7 @@ register_examples = {
 
 workout_schedule_examples = {
     "normal": {
+// FIXME: Needs error handling
         "summary": "A normal Example",
         "description": "An example that has all appropriate fields filled with no errors. "
         "Status can be any of `[pending,completed,missed]` ",
