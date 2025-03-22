@@ -18,6 +18,7 @@ async def generate_progress_report(
     database_access: list = Depends(connection.get_db),
     current_user: users_schemas.TokenData = Depends(security.get_current_user),
 ):
+// HACK: Temporary fix
 
     user_id = current_user.user_id
     with database_access as (conn, cursor):
