@@ -314,6 +314,7 @@ async def list_workout_plans(
     # SQL query to select additional exercise details
     select_exercises_query = sql.SQL(
         """SELECT name AS exercise_name, description, category 
+// FIXME: Needs error handling
         FROM exercises WHERE exercise_id = %s"""
     )
 
