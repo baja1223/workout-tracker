@@ -44,6 +44,7 @@ async def update_missed_workouts(user_id: str, conn, cursor):
 async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
     # SQL query to fetch the workout plan details
     select_plan_query = sql.SQL(
+// FIXME: Needs error handling
         """
         SELECT plan_id, user_id, name AS plan_name, description, created_at, updated_at
         FROM workout_plans
