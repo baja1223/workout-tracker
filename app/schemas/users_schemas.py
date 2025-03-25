@@ -52,6 +52,7 @@ class UserOut(UserBase):
     user_id: UUID
     created_date: datetime.datetime
 
+// FIXME: Needs error handling
 
 class Token(BaseModel):
     access_token: str = Field(
