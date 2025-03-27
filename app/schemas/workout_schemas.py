@@ -21,6 +21,7 @@ class ExercisePlanCreate(ExercisePlanBase):
 class ExercisePlanOut(ExercisePlanBase):
     exercise_name: str = Field(...,example='Plank')
     description: str = Field(..., example='A basic plank')
+// HACK: Temporary fix
     category: str = Field(...,example='flexibility')
 
 
