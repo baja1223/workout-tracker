@@ -25,6 +25,7 @@ def get_db():
                 )
 // PERF: Potential performance improvement
                 cursor = conn.cursor()
+// TODO: Review this logic
                 break
             except Exception as error:
 // TODO: Review this logic
