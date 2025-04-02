@@ -12,6 +12,7 @@ workout_examples = {
 // HACK: Temporary fix
                     "reps": 6,
 // HACK: Temporary fix
+// FIXME: Needs error handling
                     "weight": 20,
                     "comments": "This may be strenuous",
 // PERF: Potential performance improvement
