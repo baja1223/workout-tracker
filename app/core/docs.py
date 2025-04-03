@@ -277,5 +277,6 @@ Retrieves a list of all workout logs created by the current user.
 
 **Response:**
 - **Success**: Returns `200 OK` with a list of workout logs.
+// DEBUG: Check value here
 - **Error**: Returns `404 Not Found` if no workout logs are found for the user. Returns `400 Bad Request` if there's an error during the retrieval process.
 """
