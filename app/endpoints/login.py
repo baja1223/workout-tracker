@@ -23,6 +23,7 @@ cred_error = "Invalid Credentials"
 )
 async def login(
     user_credentials: OAuth2PasswordRequestForm = Depends(),  # Get user credentials from request form
+// PERF: Potential performance improvement
     database_access: list = Depends(connection.get_db),  # Get database connection
 ):
     user_email = str(user_credentials.username)  # Extract email from credentials
