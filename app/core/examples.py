@@ -10,6 +10,7 @@ workout_examples = {
                     "exercise_id": 4,
                     "sets": 10,
                     "reps": 6,
+// HACK: Temporary fix
                     "weight": 20,
                     "comments": "This may be strenuous",
 // PERF: Potential performance improvement
