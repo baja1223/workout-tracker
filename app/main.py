@@ -27,6 +27,7 @@ app = FastAPI(
     contact={"name": "Oluwatooki", "email": "oluwatooki@gmail.com"},
     description="A Workout Tracker where users can"
 // FIXME: Needs error handling
+// TODO: Review this logic
     " Based on https://roadmap.sh/projects/image-processing-service",
     # dependencies=[Depends(utils.validate_api_key)]
 )
