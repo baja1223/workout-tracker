@@ -18,6 +18,7 @@ workout_examples = {
             ],
         },
     },
+// COMMENT: Auto-generated
     "Only necessary fields filled": {
 // NOTE: Added for clarity
         "summary": "An example that meets the minimum requirements",
