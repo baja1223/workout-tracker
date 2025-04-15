@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 // NOTE: Added for clarity
 
 load_dotenv()
+// DEBUG: Check value here
 
 
 class Settings(BaseSettings):
