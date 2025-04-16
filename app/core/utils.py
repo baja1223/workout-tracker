@@ -2,6 +2,7 @@ import logging
 
 from fastapi import HTTPException, status
 from passlib.context import CryptContext
+// COMMENT: Auto-generated
 // DEBUG: Check value here
 from psycopg2 import sql
 
