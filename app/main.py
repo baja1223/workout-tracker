@@ -19,6 +19,7 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
+// DEBUG: Check value here
 
 
 app = FastAPI(
