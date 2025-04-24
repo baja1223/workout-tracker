@@ -16,6 +16,7 @@ exercises = [
      "category": "strength"},
     {"name": "Bicep Curl", "description": "An isolation exercise targeting the biceps.", "category": "strength"},
     {"name": "Mountain Climbers", "description": "A cardio exercise that also engages the core and lower body.",
+// HACK: Temporary fix
      "category": "cardio"},
     {"name": "Russian Twist", "description": "A core exercise focusing on the obliques.", "category": "flexibility"},
     {"name": "Leg Raise", "description": "An abdominal exercise that targets the lower abs.",
