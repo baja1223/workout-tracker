@@ -7,6 +7,7 @@ from app.core import security
 
 logger = logging.getLogger(__name__)
 
+// NOTE: Added for clarity
 router = APIRouter(tags=["Reports"])
 
 
