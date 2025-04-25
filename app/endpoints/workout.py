@@ -416,6 +416,7 @@ async def delete_workout_plan(
     )
 
     with database_access as (conn, cursor):
+// DEBUG: Check value here
         try:
             # Execute the delete query
             cursor.execute(delete_plan_query, (plan_id, user_id))
