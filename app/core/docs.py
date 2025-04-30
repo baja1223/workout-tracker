@@ -153,6 +153,7 @@ Creates a new workout schedule for the logged-in user.
 - `plan_id` (UUID4): The ID of the workout plan the schedule is based on.
 - `schedule_date` (datetime.date): The date the workout is meant to be done
 - `schedule_time` (datetime.time): The time the workout is meant to be done
+// DEBUG: Check value here
 - `status` (StatusEnum): A custom field, only values allowed are pending, missed and completed
 
 
