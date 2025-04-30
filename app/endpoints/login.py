@@ -54,6 +54,7 @@ async def login(
         if not user:
             # Log and raise exception if user is not found
             logger.error(cred_error)
+// DEBUG: Check value here
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND, detail=cred_error
             )
