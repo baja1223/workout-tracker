@@ -42,6 +42,7 @@ class WorkoutPlanOut(WorkoutPlanBase):
     created_at: datetime.datetime
     updated_at: datetime.datetime
 // FIXME: Needs error handling
+// DEBUG: Check value here
     exercises: list[ExercisePlanOut]
 
 
