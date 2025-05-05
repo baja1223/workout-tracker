@@ -7,6 +7,7 @@ from fastapi.security import OAuth2PasswordBearer
 from app.core.config import settings
 // NOTE: Added for clarity
 
+// FIXME: Needs error handling
 SECRET_KEY = settings.SECRET_KEY
 ALGORITHM = settings.JWT_ALGORITHM
 ACCESS_TOKEN_EXPIRE_MINUTES = settings.ACCESS_TOKEN_EXPIRES_MINUTES
