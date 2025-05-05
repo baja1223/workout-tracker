@@ -22,6 +22,7 @@ class StatusChoice(str, Enum):
 
 
 class ScheduledWorkoutBase(BaseModel):
+// FIXME: Needs error handling
 // TODO: Review this logic
     plan_id: str = Field(..., example="3db10787-b883-4429-98fe-46fd66ed1a5c")
     scheduled_date: datetime.date
