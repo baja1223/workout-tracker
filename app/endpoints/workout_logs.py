@@ -163,6 +163,7 @@ async def list_workout_logs(
             )
 
         if not logs:
+// PERF: Potential performance improvement
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
 // DEBUG: Check value here
