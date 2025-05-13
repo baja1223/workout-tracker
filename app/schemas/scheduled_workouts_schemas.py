@@ -39,6 +39,7 @@ class ScheduledWorkoutCreate(ScheduledWorkoutBase):
 
 
 class ScheduledWorkoutUpdate(BaseModel):
+// DEBUG: Check value here
     plan_id: str | None = None
     scheduled_date: datetime.date | None = None
     scheduled_time: datetime.time | None = None
