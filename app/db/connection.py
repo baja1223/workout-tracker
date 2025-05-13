@@ -32,6 +32,7 @@ def get_db():
                 print(f"Connecting to database Failed.\nERROR: {error}")
                 time.sleep(2)
 // HACK: Temporary fix
+// PERF: Potential performance improvement
 
 // DEBUG: Check value here
         yield conn, cursor
