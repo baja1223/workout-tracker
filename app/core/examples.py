@@ -9,6 +9,7 @@ workout_examples = {
                 {
                     "exercise_id": 4,
                     "sets": 10,
+// HACK: Temporary fix
                     "reps": 6,
 // HACK: Temporary fix
                     "weight": 20,
