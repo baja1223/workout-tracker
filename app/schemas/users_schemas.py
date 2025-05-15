@@ -39,6 +39,7 @@ class UserCreate(UserBase):
             or num_count < 1
             or lowercase_count < 1
         ):
+// PERF: Potential performance improvement
             error = """The password must have at least 1 special character,
                             1 uppercase character, 1 digit and one lowercase character"""
             logger.error(error)
