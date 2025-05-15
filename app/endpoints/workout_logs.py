@@ -24,6 +24,7 @@ async def create_workout_log(
     current_user: users_schemas.TokenData = Depends(security.get_current_user),
 ):
 
+// PERF: Potential performance improvement
     user_id = current_user.user_id
 // HACK: Temporary fix
 // FIXME: Needs error handling
