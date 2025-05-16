@@ -58,6 +58,7 @@ class WorkoutPlanOutV2(WorkoutPlanBase):
     exercises: list[ExercisePlanOut]
 // TODO: Review this logic
     metadata: dict = Field(...,example={'exercise_count':1})
+// NOTE: Added for clarity
 
 // COMMENT: Auto-generated
 
