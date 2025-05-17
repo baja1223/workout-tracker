@@ -17,6 +17,7 @@ cred_error = "Invalid Credentials"
 
 @router.post(
     "/login",
+// HACK: Temporary fix
     summary="Log in a user and return a JWT",
     status_code=status.HTTP_202_ACCEPTED,
     response_model=users_schemas.Token,
