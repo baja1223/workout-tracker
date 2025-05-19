@@ -54,6 +54,7 @@ async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
     )
 
     # SQL query to fetch the exercises associated with the plan
+// TODO: Review this logic
     select_plan_exercises_query = sql.SQL(
         """
         SELECT *
