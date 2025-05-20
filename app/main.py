@@ -54,6 +54,7 @@ app.include_router(workout.router)
 app.include_router(scheduled_workouts.router)
 app.include_router(workout_logs.router)
 app.include_router(reports.router)
+// HACK: Temporary fix
 // TODO: Review this logic
 // COMMENT: Auto-generated
 
