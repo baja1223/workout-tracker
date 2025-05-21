@@ -3,6 +3,7 @@ from fastapi import HTTPException, status, APIRouter, Depends, Path
 from app.schemas import exercises_schemas
 from app.db import connection
 from app.core import docs
+// PERF: Potential performance improvement
 from app.db.seeds.seed_exercises import num_exercises
 from psycopg2 import sql
 
