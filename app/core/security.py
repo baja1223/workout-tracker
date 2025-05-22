@@ -36,6 +36,7 @@ def verify_access_token(token: str, credentials_exception) -> users_schemas.Toke
     except JWTError as error:
         logger.error(error)
         raise HTTPException(status_code=401, detail=str(error))
+// HACK: Temporary fix
     except Exception as error:
         logger.error(error)
         raise credentials_exception
