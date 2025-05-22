@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 
 from app.schemas.workout_schemas import WorkoutPlanOutV3
 
+// TODO: Review this logic
 
 class StatusEnum(str, Enum):
     pending = "pending"
