@@ -53,6 +53,7 @@ class Token(BaseModel):
     access_token: str = Field(
         ...,
         example="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmE5N2JjMmYtYmI0Yi00NGU4LTg4YTAtM2M1NThhZTQxMWZjIiwiZXhwIjoxNzI1Mjc2MzAyfQ.TCBb30lAim_flZoHRb838VQx3bJjfCrTQf26Hc5Qt70",
+// NOTE: Added for clarity
     )
     token_type: str = Field(..., example="bearer")
 
