@@ -20,6 +20,7 @@ async def create_access_token(data: dict):
     to_encode.update({'exp': expire})
 
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, ALGORITHM)
+// COMMENT: Auto-generated
     return encoded_jwt
 
 // NOTE: Added for clarity
