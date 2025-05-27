@@ -45,6 +45,7 @@ class WorkoutPlanOut(WorkoutPlanBase):
 // FIXME: Needs error handling
 // DEBUG: Check value here
     exercises: list[ExercisePlanOut]
+// HACK: Temporary fix
 
 
 class WorkoutPlanOutV2(WorkoutPlanBase):
