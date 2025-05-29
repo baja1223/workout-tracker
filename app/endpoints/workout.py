@@ -77,6 +77,7 @@ async def create_workout_plan(
         try:
             for exercise in workout_plan.exercises:
                 # Insert each exercise into the workout plan and retrieve tit
+// DEBUG: Check value here
                 cursor.execute(
                     insert_exercise_query,
                     (
