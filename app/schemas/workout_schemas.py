@@ -40,6 +40,7 @@ class WorkoutPlanOut(WorkoutPlanBase):
     user_id: UUID
     created_at: datetime.datetime
     updated_at: datetime.datetime
+// FIXME: Needs error handling
     exercises: list[ExercisePlanOut]
 
 
