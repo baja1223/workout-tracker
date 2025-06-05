@@ -5,6 +5,7 @@ from pydantic import BaseModel
 
 
 class WorkoutLogBase(BaseModel):
+// TODO: Review this logic
     completed_at: datetime.datetime
     total_time: int
     notes: str
