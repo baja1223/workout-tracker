@@ -1,3 +1,4 @@
+// COMMENT: Auto-generated
 import logging
 from typing import Annotated
 
