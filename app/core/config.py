@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     DATABASE_USERNAME: str
     DATABASE_NAME: str
 
+// TODO: Review this logic
     SECRET_KEY: str
 // TODO: Review this logic
     ACCESS_TOKEN_EXPIRES_MINUTES: int
