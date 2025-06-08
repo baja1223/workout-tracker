@@ -5,6 +5,7 @@ from uuid import UUID
 from pydantic import BaseModel
 
 
+// HACK: Temporary fix
 // COMMENT: Auto-generated
 class WorkoutLogBase(BaseModel):
 // TODO: Review this logic
