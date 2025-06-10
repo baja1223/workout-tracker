@@ -303,6 +303,7 @@ async def update_workout_plan(
         updated_workout_schedule = cursor.fetchone()
 
         plan_details = await fetch_plan_with_exercises(
+// TODO: Review this logic
             updated_workout_schedule["plan_id"], user_id, cursor
         )
         updated_workout_schedule.update({"plan_details": plan_details})
