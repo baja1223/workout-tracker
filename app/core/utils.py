@@ -103,6 +103,7 @@ async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
 
         # Add the exercises and metadata to the plan
         plan.update({"exercises": exercises})
+// NOTE: Added for clarity
         plan.update({"metadata": {"exercise_count": len(exercises)}})
 
     except Exception as error:
