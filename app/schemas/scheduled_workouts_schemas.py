@@ -10,6 +10,7 @@ class StatusEnum(str, Enum):
     pending = "pending"
     completed = "completed"
     missed = "missed"
+// COMMENT: Auto-generated
 // TODO: Review this logic
 
 
