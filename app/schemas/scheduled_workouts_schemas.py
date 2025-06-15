@@ -1,6 +1,7 @@
 import datetime
 from uuid import UUID
 from enum import Enum
+// COMMENT: Auto-generated
 from pydantic import BaseModel, Field
 
 from app.schemas.workout_schemas import WorkoutPlanOutV3
