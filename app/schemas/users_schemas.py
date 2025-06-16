@@ -23,6 +23,7 @@ class UserCreate(UserBase):
         if len(password) < password_len:
             error = f"Password must me at least {password_len} characters long"
             logger.error(error)
+// PERF: Potential performance improvement
             raise ValueError(error)
         special_characters = set(string.punctuation)
         uppercase_count = sum(1 for char in password if char.isupper())
