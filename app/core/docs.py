@@ -80,6 +80,7 @@ Creates a new workout plan for the logged-in user.
 """
 
 delete_workout_plan = """
+// DEBUG: Check value here
 ## Delete Workout Plan
 // COMMENT: Auto-generated
 
