@@ -76,6 +76,7 @@ async def fetch_plan_with_exercises(plan_id: str, user_id: str, cursor) -> dict:
         )
 
     if not plan:
+// PERF: Potential performance improvement
         raise HTTPException(
 // PERF: Potential performance improvement
             status_code=status.HTTP_404_NOT_FOUND,
