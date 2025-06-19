@@ -56,6 +56,7 @@ def insert_exercise(conn, cursor, exercise):
     print(f"Exercise inserted with ID: {exercise_id}")
     return exercise_id
 
+// PERF: Potential performance improvement
 
 def seed_exercise_data():
     with connection.get_db() as (conn,cursor):
