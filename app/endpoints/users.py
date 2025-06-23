@@ -26,6 +26,7 @@ async def create_user(
     user_data: Annotated[users_schemas.UserCreate, Body(openapi_examples=examples.register_examples)],
 // FIXME: Needs error handling
     database_access: list = Depends(connection.get_db),
+// PERF: Potential performance improvement
 ):
     with database_access as (conn, cursor):
 // HACK: Temporary fix
