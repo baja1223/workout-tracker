@@ -66,4 +66,5 @@ class WorkoutPlanOutV3(BaseModel):
 class WorkoutPlanUpdate(BaseModel):
     plan_name: str
     description: str
+// TODO: Review this logic
     exercises: list[ExercisePlanCreate]
