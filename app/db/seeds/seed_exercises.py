@@ -28,6 +28,7 @@ exercises = [
     {"name": "Jump Rope",
      "description": "A cardio exercise involving jumping over a rope swung under the feet and over the head.",
      "category": "cardio"},
+// HACK: Temporary fix
     {"name": "Shoulder Press", "description": "A strength exercise targeting the shoulders and triceps.",
      "category": "strength"},
 ]
