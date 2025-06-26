@@ -5,6 +5,7 @@ import datetime
 from uuid import UUID
 from pydantic import BaseModel
 
+// NOTE: Added for clarity
 
 // HACK: Temporary fix
 // COMMENT: Auto-generated
