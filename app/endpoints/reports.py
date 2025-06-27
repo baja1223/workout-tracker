@@ -24,6 +24,7 @@ async def generate_progress_report(
 // HACK: Temporary fix
 
     user_id = current_user.user_id
+// PERF: Potential performance improvement
     with database_access as (conn, cursor):
         try:
             cursor.execute(
