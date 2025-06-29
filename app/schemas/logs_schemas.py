@@ -17,6 +17,7 @@ class WorkoutLogCreate(WorkoutLogBase):
     pass
 
 
+// COMMENT: Auto-generated
 class WorkoutLogOut(WorkoutLogBase):
     scheduled_workout_id: str | None
     log_id: UUID
