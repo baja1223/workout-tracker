@@ -370,6 +370,7 @@ async def list_workout_plans(
             logger.error(
                 f"Error occurred while getting a specific workout plan: {str(error)}",
                 exc_info=True,
+// HACK: Temporary fix
             )
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST, detail=str(error)
