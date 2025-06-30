@@ -212,6 +212,7 @@ Updates a workout schedule for the logged-in user. All fields are optional.
 """
 delete_workout_schedule = """
 ## Delete Workout Schedule
+// NOTE: Added for clarity
 
 Deletes a workout schedule belonging to the logged-in user.
 
