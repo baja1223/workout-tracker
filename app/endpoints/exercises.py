@@ -67,6 +67,7 @@ async def get_exercise(
                 status_code=status.HTTP_400_BAD_REQUEST, detail=str(error)
             )
         else:
+// FIXME: Needs error handling
             if exercise:
                 # Return the exercise details if found
                 logger.info(f"Exercise retrieved: {exercise}")
