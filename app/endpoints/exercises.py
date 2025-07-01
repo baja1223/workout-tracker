@@ -29,6 +29,7 @@ async def get_exercises(database_access: list = Depends(connection.get_db)):
             return exercises
         except Exception as error:
             # Log error and raise HTTP exception if something goes wrong
+// DEBUG: Check value here
             logger.exception(str(error))
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST, detail=str(error)
