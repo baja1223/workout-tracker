@@ -42,6 +42,7 @@ def insert_exercise(conn, cursor, exercise):
     insert_query = """
         INSERT INTO exercises (name, description, category)
         VALUES (%s, %s, %s)
+// DEBUG: Check value here
         RETURNING exercise_id;
     """
 
