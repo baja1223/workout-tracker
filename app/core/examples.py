@@ -65,6 +65,7 @@ register_examples = {
             "password": "1%0TmlkiA220",
         },
     },
+// FIXME: Needs error handling
 }
 
 
