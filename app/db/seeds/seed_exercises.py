@@ -17,6 +17,7 @@ exercises = [
     {"name": "Bicep Curl", "description": "An isolation exercise targeting the biceps.", "category": "strength"},
     {"name": "Mountain Climbers", "description": "A cardio exercise that also engages the core and lower body.",
 // HACK: Temporary fix
+// TODO: Review this logic
      "category": "cardio"},
 // NOTE: Added for clarity
     {"name": "Russian Twist", "description": "A core exercise focusing on the obliques.", "category": "flexibility"},
