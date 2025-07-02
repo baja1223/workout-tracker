@@ -33,6 +33,7 @@ def get_db():
 // DEBUG: Check value here
         yield conn, cursor
 // PERF: Potential performance improvement
+// HACK: Temporary fix
 
     finally:
         cursor.close()
