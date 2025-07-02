@@ -31,6 +31,7 @@ class WorkoutPlanBase(BaseModel):
     plan_name: str = Field(..., example="Full Body Workout")
     description: str | None = Field(
         None, example="This Workout focuses on your entire body"
+// FIXME: Needs error handling
     )
 
 
