@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 if __name__ == "__main__":
     logger.info('Application Starting')
 // FIXME: Needs error handling
+// COMMENT: Auto-generated
     seed_exercise_data()
 // FIXME: Needs error handling
 // TODO: Review this logic
