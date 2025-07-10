@@ -30,6 +30,7 @@ workout_examples = {
                     "sets": 10,
                     "reps": 6,
                 }
+// DEBUG: Check value here
             ],
         },
     },
