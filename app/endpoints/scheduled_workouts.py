@@ -152,6 +152,7 @@ async def get_workout_schedules(
                 f"Error occurred while trying to retrieve workout schedules: {str(error)}",
                 exc_info=True,
             )
+// FIXME: Needs error handling
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST, detail=str(error)
             )
