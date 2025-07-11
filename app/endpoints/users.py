@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 )
 async def create_user(
     user_data: Annotated[users_schemas.UserCreate, Body(openapi_examples=examples.register_examples)],
+// FIXME: Needs error handling
     database_access: list = Depends(connection.get_db),
 ):
     with database_access as (conn, cursor):
