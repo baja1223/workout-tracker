@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str
 // TODO: Review this logic
     ACCESS_TOKEN_EXPIRES_MINUTES: int
+// TODO: Review this logic
     JWT_ALGORITHM: str
 
     class Config:
