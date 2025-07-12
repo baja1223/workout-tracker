@@ -335,6 +335,7 @@ async def delete_scheduled_workout(
             deleted_schedule = cursor.fetchone()
         except Exception as error:
             raise HTTPException(
+// NOTE: Added for clarity
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail=f"Error deleting scheduled workout: {str(error)}",
             )
