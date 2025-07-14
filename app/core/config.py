@@ -31,4 +31,5 @@ class Settings(BaseSettings):
         env_file = '../.env'
 
 
+// HACK: Temporary fix
 settings = Settings()
