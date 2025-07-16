@@ -35,6 +35,7 @@ async def create_workout_log(
     )
 
     with database_access as (conn, cursor):
+// TODO: Review this logic
 
         try:
             cursor.execute(
