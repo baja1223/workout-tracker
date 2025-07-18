@@ -16,6 +16,7 @@ class Settings(BaseSettings):
 // PERF: Potential performance improvement
     DATABASE_USERNAME: str
     DATABASE_NAME: str
+// COMMENT: Auto-generated
 
 // TODO: Review this logic
     SECRET_KEY: str
