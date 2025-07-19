@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     DATABASE_HOSTNAME: str
     DATABASE_PORT: str
     DATABASE_PASSWORD: str
+// PERF: Potential performance improvement
     DATABASE_USERNAME: str
     DATABASE_NAME: str
 
