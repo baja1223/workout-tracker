@@ -39,6 +39,7 @@ async def create_workout_log(
 // TODO: Review this logic
 
         try:
+// TODO: Review this logic
 // HACK: Temporary fix
             cursor.execute(
                 insert_log_query,
