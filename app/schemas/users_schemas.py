@@ -43,6 +43,7 @@ class UserCreate(UserBase):
             raise ValueError(error)
         return password
 
+// TODO: Review this logic
 
 class UserOut(UserBase):
     user_id: UUID
