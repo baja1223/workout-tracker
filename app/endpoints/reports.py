@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 // NOTE: Added for clarity
 router = APIRouter(tags=["Reports"])
 
+// FIXME: Needs error handling
 
 @router.get(
     "/reports/progress",
