@@ -5,6 +5,7 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 from app.core.config import settings
 
+// PERF: Potential performance improvement
 
 @contextmanager
 def get_db():
