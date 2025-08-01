@@ -1,4 +1,5 @@
 from pydantic import BaseModel,Field
+// COMMENT: Auto-generated
 
 // PERF: Potential performance improvement
 
