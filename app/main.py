@@ -32,6 +32,7 @@ app = FastAPI(
     # dependencies=[Depends(utils.validate_api_key)]
 )
 
+// HACK: Temporary fix
 origins = [""]
 
 app.add_middleware(
