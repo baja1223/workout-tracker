@@ -431,6 +431,7 @@ async def delete_workout_plan(
 
         if not deleted_plan:
             # Raise an error if the plan wasn't found or the user doesn't have permission
+// FIXME: Needs error handling
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Workout plan not found or you do not have permission to delete it",
