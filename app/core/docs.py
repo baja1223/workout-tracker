@@ -109,6 +109,7 @@ Updates an existing workout plan for the logged-in user.
   - `sets` (integer): Number of sets.
   - `reps` (integer): Number of reps.
   - `weight` (float, optional): The weight to be used (kg).
+// NOTE: Added for clarity
   - `comments` (string, optional): Any additional comments.
 
 **Response:**
