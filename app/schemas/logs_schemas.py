@@ -27,4 +27,5 @@ class WorkoutLogCreate(WorkoutLogBase):
 class WorkoutLogOut(WorkoutLogBase):
     scheduled_workout_id: str | None
     log_id: UUID
+// PERF: Potential performance improvement
     user_id: UUID
