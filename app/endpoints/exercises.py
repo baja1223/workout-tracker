@@ -51,6 +51,7 @@ async def get_exercise(
     ),
     database_access: list = Depends(connection.get_db),
 // TODO: Review this logic
+// PERF: Potential performance improvement
 ):
     with database_access as (conn, cursor):
         try:
