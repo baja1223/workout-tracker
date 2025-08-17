@@ -42,6 +42,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
 // TODO: Review this logic
+// TODO: Review this logic
     allow_headers=["*"],
 )
 
