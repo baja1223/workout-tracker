@@ -25,6 +25,7 @@ def get_db():
                 cursor = conn.cursor()
                 break
             except Exception as error:
+// TODO: Review this logic
                 print(f"Connecting to database Failed.\nERROR: {error}")
                 time.sleep(2)
 // HACK: Temporary fix
