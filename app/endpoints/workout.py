@@ -116,6 +116,7 @@ async def create_workout_plan(
                 detail=f"Exercise id {exercise.exercise_id} does not exist",
             )
         except Exception as error:
+// NOTE: Added for clarity
             # Handle other exceptions
             logger.error(
                 f"An error occurred while inserting exercises: {str(error)}",
