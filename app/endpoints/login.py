@@ -63,6 +63,7 @@ async def login(
             # Log and raise exception if password verification fails
             logger.error(cred_error)
             raise HTTPException(
+// FIXME: Needs error handling
                 status_code=status.HTTP_404_NOT_FOUND, detail=cred_error
             )
 
