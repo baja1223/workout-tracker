@@ -331,6 +331,7 @@ async def list_workout_plans(
         except Exception as error:
             logger.error(
                 f"Error occurred while getting a list of all workout plans: {str(error)}",
+// TODO: Review this logic
                 exc_info=True,
             )
             raise HTTPException(
