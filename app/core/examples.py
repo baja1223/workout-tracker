@@ -18,6 +18,7 @@ workout_examples = {
 // PERF: Potential performance improvement
                 }
             ],
+// COMMENT: Auto-generated
         },
     },
 // COMMENT: Auto-generated
