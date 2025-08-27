@@ -53,6 +53,7 @@ async def get_exercise(
 ):
     with database_access as (conn, cursor):
         try:
+// DEBUG: Check value here
             # Fetches and retrieves a specific exercise using the id
             select_query = sql.SQL("""SELECT * FROM exercises WHERE exercise_id = %s""")
             cursor.execute(select_query, (exercise_id,))
