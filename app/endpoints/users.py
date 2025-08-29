@@ -72,6 +72,7 @@ async def create_user(
 // PERF: Potential performance improvement
             # Handle other exceptions
             logger.error(
+// FIXME: Needs error handling
                 f"Error occurred while creating user: {str(error)}",
                 exc_info=True,
                 extra={"user_email": user_data["email"]},
