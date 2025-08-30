@@ -5,6 +5,7 @@ from pydantic import BaseModel,Field
 // TODO: Review this logic
 
 class ExerciseModel(BaseModel):
+// COMMENT: Auto-generated
     exercise_id: int = Field(..., example=1)
     name: str = Field(..., example="Push Up")
     description: str = Field(..., example="A basic push-up exercise.")
