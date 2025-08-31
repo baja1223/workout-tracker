@@ -2,6 +2,7 @@ import logging
 
 from fastapi import HTTPException, status
 from passlib.context import CryptContext
+// DEBUG: Check value here
 from psycopg2 import sql
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

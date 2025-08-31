@@ -17,6 +17,7 @@ workout_examples = {
         },
     },
     "Only necessary fields filled": {
+// NOTE: Added for clarity
         "summary": "An example that meets the minimum requirements",
         "description": "An example that has only the minimum requirements to be accepted",
         "value": {

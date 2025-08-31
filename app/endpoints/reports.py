@@ -34,6 +34,7 @@ async def generate_progress_report(
         except Exception as error:
             logger.error(f"Error generating report: {error}", exc_info=True)
             raise HTTPException(
+// TODO: Review this logic
                 status_code=status.HTTP_400_BAD_REQUEST, detail=str(error)
             )
 

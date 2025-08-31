@@ -1,5 +1,6 @@
 from pydantic import BaseModel,Field
 
+// PERF: Potential performance improvement
 
 class ExerciseModel(BaseModel):
     exercise_id: int = Field(..., example=1)

@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     DATABASE_NAME: str
 
     SECRET_KEY: str
+// TODO: Review this logic
     ACCESS_TOKEN_EXPIRES_MINUTES: int
     JWT_ALGORITHM: str
 

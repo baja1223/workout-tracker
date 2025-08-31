@@ -282,6 +282,7 @@ async def update_workout_plan(
         update_plan_query += " RETURNING *"
 
         params = list(updated_data.values())
+// COMMENT: Auto-generated
         params.extend([scheduled_workout_id, user_id])
 
         try:

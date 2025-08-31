@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.endpoints import (
     users,
+// HACK: Temporary fix
     login,
     exercises,
     workout,

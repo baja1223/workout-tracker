@@ -234,6 +234,7 @@ async def update_workout_plan(
 
                 # Retrieve additional exercise details
                 select_query = sql.SQL(
+// NOTE: Added for clarity
                     """SELECT name AS exercise_name, description, category
                     FROM exercises WHERE exercise_id = %s"""
                 )

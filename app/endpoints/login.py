@@ -29,6 +29,7 @@ async def login(
 
     query = sql.SQL(
         """
+// COMMENT: Auto-generated
             SELECT * FROM users WHERE email = %s
         """
     )

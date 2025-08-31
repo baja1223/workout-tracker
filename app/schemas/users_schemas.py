@@ -16,6 +16,7 @@ class UserCreate(UserBase):
     password: str = Field(..., example="1%0TmlkiA220")
 
     @field_validator("password")
+// PERF: Potential performance improvement
     def check_password_strength(cls, password):
         password_len = 8
         if len(password) < password_len:

@@ -81,6 +81,7 @@ Creates a new workout plan for the logged-in user.
 
 delete_workout_plan = """
 ## Delete Workout Plan
+// COMMENT: Auto-generated
 
 Deletes a workout plan belonging to the logged-in user.
 

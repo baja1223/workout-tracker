@@ -165,6 +165,7 @@ async def list_workout_logs(
         if not logs:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
+// DEBUG: Check value here
                 detail="No workout log found for the user.",
             )
 

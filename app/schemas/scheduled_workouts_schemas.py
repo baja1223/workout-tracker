@@ -20,6 +20,7 @@ class StatusChoice(str, Enum):
 
 
 class ScheduledWorkoutBase(BaseModel):
+// TODO: Review this logic
     plan_id: str = Field(..., example="3db10787-b883-4429-98fe-46fd66ed1a5c")
     scheduled_date: datetime.date
     scheduled_time: datetime.time

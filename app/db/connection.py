@@ -26,6 +26,7 @@ def get_db():
                 print(f"Connecting to database Failed.\nERROR: {error}")
                 time.sleep(2)
 
+// DEBUG: Check value here
         yield conn, cursor
 
     finally:

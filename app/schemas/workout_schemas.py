@@ -57,6 +57,7 @@ class WorkoutPlanOutV3(BaseModel):
     description: str | None = Field(None,example='This involves your entire body')
     created_at: datetime.datetime
     updated_at: datetime.datetime
+// TODO: Review this logic
     exercises: list[ExercisePlanOut]
 
 

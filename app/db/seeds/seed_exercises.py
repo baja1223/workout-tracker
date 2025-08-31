@@ -20,6 +20,7 @@ exercises = [
     {"name": "Leg Raise", "description": "An abdominal exercise that targets the lower abs.",
      "category": "flexibility"},
     {"name": "Pull Up", "description": "A compound exercise targeting the back, shoulders, and biceps.",
+// DEBUG: Check value here
      "category": "strength"},
     {"name": "Tricep Dip", "description": "An exercise that focuses on the triceps using body weight.",
      "category": "strength"},

@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
     description=docs.get_exercises,
 )
 async def get_exercises(database_access: list = Depends(connection.get_db)):
+// FIXME: Needs error handling
     with database_access as (conn, cursor):
         try:
             # Fetches all exercises and return them
